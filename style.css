@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "test";
+    src: url("test.ttf") format("truetype");      
+   }
+body
+{
+	width:50%;
+	height:1200px;
+	margin:auto;
+    display:flex;
+	border:1px solid black;
+}
+header
+{
+    display:flex;
+    flex-direction:column;
+    margin-top:5%;
+    margin-bottom:10%;
+    align-content:center;
+}
+.element1
+{
+ font-size:1em;
+ width:25%;
+ height:1200px;
+ background-color:#FDD835;
+ display:flex;
+ flex-direction: column;
+ text-align:center;
+}
+.element1 img
+{
+    width:100%
+}
+.element1 h3
+{
+    margin-top:0px;
+    margin-bottom:10px;
+	background:#494749;
+	text-align:center;
+	color:#F5BE00;
+	font-family: test, "comic sans ms", serif ;
+}
+.element1 p
+{
+    margin-right:20px;
+    margin-left:20px;
+}
+.myself
+{
+    margin-bottom:150px;
+}
+.loisir
+{
+    display:flex;
+    justify-content:space-around;
+    margin-top:10px;
+    font-size:1.9em;
+}
+.element2
+{
+display:flex;
+flex-wrap: wrap;
+flex:100%
+}
+.element2 h3
+{
+    display:flex;
+    order:1;
+    flex:100%;
+    align-content:flex-end;
+}
+
+.element2 aside /*, article*/
+{
+margin-left:20%;
+display:flex;
+flex-direction:column;
+order:2;
+flex:1 20%;
+
+}
+.element2 article
+{
+    display:flex;
+    flex-direction:column;
+    flex:1 40% ;
+}
+.element2 h4,h5
+{
+    margin:20px 20px 0px 0px;
+
+}
+.element3
+{
+flex:100%;
+display:flex;
+flex-wrap: wrap;
+}
+.element3 h3
+{
+    display:flex;
+    order:1;
+    flex:100%;
+}
+
+.element3 aside, article
+{
+
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+order:2;
+flex-basis: 40%;
+text-align:start;
+
+}
+.element3 h4,h5
+{
+    margin:20px 20px 0px 0px;
+
+}
+main h3
+{
+    margin-left:5%;
+    text-align:left;
+    border-bottom:solid #FFA726 2px;
+}
+main 
+{
+    width:70%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+h1
+{
+    font-family: test, "comic sans ms", serif ;
+}
+strong
+{
+    color:#FFA726;
+    font-family: test, "comic sans ms", serif ;
+}
+
