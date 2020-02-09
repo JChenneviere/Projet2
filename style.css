@@ -4,11 +4,12 @@
    }
 body
 {
-	width:50%;
+	width:30%;
 	height:1200px;
 	margin:auto;
     display:flex;
-	border:1px solid black;
+    background-color:white;
+    border:1px solid black;
 }
 header
 {
@@ -16,35 +17,46 @@ header
     flex-direction:column;
     margin-top:5%;
     margin-bottom:10%;
-    align-content:center;
+    margin-left:10%;
+    justify-content:left;
 }
-.element1
+aside
 {
- font-size:1em;
- width:25%;
+ font-size:0.9em;
+ width:40%;
  height:1200px;
  background-color:#FDD835;
  display:flex;
  flex-direction: column;
- text-align:center;
+ text-align:left;
+ 
 }
-.element1 img
+aside img
 {
-    width:100%
+    display:flex;
+    align-self:center;
+    border-radius:500px;
+    width:50%;
+    margin-top:40px;
+    margin-bottom:40px;
+
 }
-.element1 h3
+aside h3
 {
     margin-top:0px;
     margin-bottom:10px;
+    font-size:1.5em;
 	background:#494749;
 	text-align:center;
 	color:#F5BE00;
 	font-family: test, "comic sans ms", serif ;
 }
-.element1 p
+aside p
 {
-    margin-right:20px;
-    margin-left:20px;
+    font-size:0.9em;
+    margin-right:30px;
+    margin-left:30px;
+    margin-top:5px;
 }
 .myself
 {
@@ -53,73 +65,11 @@ header
 .loisir
 {
     display:flex;
-    justify-content:space-around;
+    align-self:flex-end;
     margin-top:10px;
     font-size:1.9em;
 }
-.element2
-{
-display:flex;
-flex-wrap: wrap;
-flex:100%
-}
-.element2 h3
-{
-    display:flex;
-    order:1;
-    flex:100%;
-    align-content:flex-end;
-}
 
-.element2 aside /*, article*/
-{
-margin-left:20%;
-display:flex;
-flex-direction:column;
-order:2;
-flex:1 20%;
-
-}
-.element2 article
-{
-    display:flex;
-    flex-direction:column;
-    flex:1 40% ;
-}
-.element2 h4,h5
-{
-    margin:20px 20px 0px 0px;
-
-}
-.element3
-{
-flex:100%;
-display:flex;
-flex-wrap: wrap;
-}
-.element3 h3
-{
-    display:flex;
-    order:1;
-    flex:100%;
-}
-
-.element3 aside, article
-{
-
-display:flex;
-flex-direction:column;
-justify-content:space-between;
-order:2;
-flex-basis: 40%;
-text-align:start;
-
-}
-.element3 h4,h5
-{
-    margin:20px 20px 0px 0px;
-
-}
 main h3
 {
     margin-left:5%;
@@ -128,10 +78,66 @@ main h3
 }
 main 
 {
+    background-color:white;
     width:70%;
     display:flex;
     flex-direction:column;
-    align-items:flex-end;
+}
+
+.element2
+{
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+
+}
+.element2 p
+{
+    display:flex;
+    flex-direction:column;
+
+}
+.element2 h3
+{
+display:flex;
+align-content:flex-end;
+}
+
+.element2 article
+{
+    display:flex;
+    flex-direction:column;
+
+}
+.element2 h4,h5
+{
+    margin:20px 20px 0px 0px;
+
+}
+.element3
+{
+display:flex;
+flex-direction:column;
+
+
+}
+.element3 h3
+{
+    display:flex;
+
+    align-content:flex-end;
+}
+
+.element3 article
+{
+    display:flex;
+    flex-direction:row;
+    flex:1 40% ;
+}
+.element3 h4,h5
+{
+    margin:20px 20px 0px 0px;
+
 }
 h1
 {
