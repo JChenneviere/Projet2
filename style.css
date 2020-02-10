@@ -92,13 +92,16 @@ flex-direction:column;
 
 }
 .date
-{   display:flex;
+{   
+    margin-left:50px;
+    display:flex;
     flex-direction:column;
     align-self:flex-start;
 }
 .para
 {
     width:50%;
+    text-align:left;
     display:flex;
     flex-direction:column;
     align-self:flex-end;  
@@ -106,7 +109,7 @@ flex-direction:column;
 .element2 h5
 {
     width:50%;
-    margin-left:10px;
+    text-align:left;
     display:flex;
     flex-direction:column;
     align-self:flex-end;
@@ -114,6 +117,7 @@ flex-direction:column;
 .element2 h4
 {
     width:50%;
+    text-align:left;
     display:flex;
     flex-direction:column;
     align-self:flex-end;
