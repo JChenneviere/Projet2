@@ -15,7 +15,7 @@ header
     display:flex;
     flex-direction:column;
     margin-top:5%;
-    margin-bottom:10%;
+    margin-bottom:5%;
     margin-left:10%;
     justify-content:left;
 }
@@ -42,6 +42,7 @@ aside img
 aside h3
 {
     margin-top:0px;
+
     margin-bottom:10px;
     font-size:1.5em;
 	background:#494749;
@@ -63,14 +64,14 @@ aside p
 .loisir
 {
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     margin-top:10px;
-    font-size:1.9em;
+    font-size:2.5em;
 }
 
 main h3
 {
-    margin-left:5%;
+
     text-align:left;
     border-bottom:solid #FFA726 2px;
 }
@@ -89,7 +90,7 @@ main
 {
 display:flex;
 flex-direction:column;
-
+text-align:left;
 }
 .date
 {   
@@ -101,27 +102,20 @@ flex-direction:column;
 .para
 {
     width:50%;
-    text-align:left;
-    display:flex;
-    flex-direction:column;
-    align-self:flex-end;  
-}
-.element2 h5
-{
-    width:50%;
-    text-align:left;
+    margin-top:0%;
     display:flex;
     flex-direction:column;
     align-self:flex-end;
 }
+
 .element2 h4
 {
     width:50%;
-    text-align:left;
+    margin-top:-10%;
+    margin-bottom:10px;
     display:flex;
     flex-direction:column;
     align-self:flex-end;
-
 }
 .element2 h3
 {
@@ -130,43 +124,39 @@ align-content:flex-end;
 margin-right:10%;
 margin-bottom:0%;
 }
-
-/*.element2 article
+.element3 header
 {
+    margin-bottom:10px;
+}
+.element3 article
+{
+display:flex;
+flex-direction:column;
+text-align:left;
+}
+.element3 h4
+{
+    width:50%;
+    margin-top:-10%;
+    margin-bottom:10px;
     display:flex;
     flex-direction:column;
-
-}*/
-.element2 h4,h5
-{
-    margin:10px 10px 0px 0px;
-
+    align-self:flex-end;
 }
+.element3 h3
+{
+display:flex;
+align-content:flex-end;
+margin-right:10%;
+margin-bottom:0%;
+}
+
 .element3
 {
 display:flex;
 flex-direction:column;
-
-
-}
-.element3 h3
-{
-    display:flex;
-
-    align-content:flex-end;
 }
 
-.element3 article
-{
-    display:flex;
-    flex-direction:row;
-
-}
-.element3 h4,h5
-{
-    margin:20px 20px 0px 0px;
-
-}
 h1
 {
     font-family: test, "comic sans ms", serif ;
