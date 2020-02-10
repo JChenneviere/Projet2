@@ -4,7 +4,7 @@
    }
 body
 {
-	width:30%;
+	width:700px;
 	margin:auto;
     display:flex;
     background-color:white;
@@ -90,14 +90,13 @@ main
 {
 display:flex;
 flex-direction:column;
-text-align:left;
 }
 .date
 {   
-    margin-left:50px;
+    margin-left:30px;
     display:flex;
-    flex-direction:column;
-    align-self:flex-start;
+    flex-flow:row wrap;
+    align-items:flex-start;
 }
 .para
 {
@@ -156,7 +155,34 @@ margin-bottom:0%;
 display:flex;
 flex-direction:column;
 }
+.element4
+{
+    display:flex;
+    flex-direction:column;
 
+}
+.element4 article
+{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    width: 100%;
+}
+/*.tps
+{
+    width:30%;
+    margin-top:0%;
+    display:flex;
+    flex-direction:column;
+    align-self:flex-end;
+}*/
+.element4 h3
+{
+display:flex;
+align-content:flex-end;
+margin-right:10%;
+margin-bottom:0%;
+}
 h1
 {
     font-family: test, "comic sans ms", serif ;
@@ -166,4 +192,34 @@ strong
     color:#FFA726;
     font-family: test, "comic sans ms", serif ;
 }
-
+.fa-book
+{
+    color:#FFA726;
+    margin-right:10px;
+}
+.fa-book-open
+{
+    color:#FFA726;
+    margin-right:10px;
+}
+.fa-user-graduate
+{
+    color:#FFA726;
+    margin-right:10px;
+    margin-bottom:10px;
+    font-size:1.5EM;
+}
+.fa-percentage
+{
+    color:#FFA726;
+    margin-right:10px;
+    margin-bottom:10px;
+    font-size:1.5EM;
+}
+.fa-scroll
+{
+    color:#FFA726;
+    margin-right:10px;
+    margin-bottom:10px;
+    font-size:1.5EM;
+}
