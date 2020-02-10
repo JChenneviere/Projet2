@@ -5,7 +5,6 @@
 body
 {
 	width:30%;
-	height:1200px;
 	margin:auto;
     display:flex;
     background-color:white;
@@ -24,7 +23,6 @@ aside
 {
  font-size:0.9em;
  width:40%;
- height:1200px;
  background-color:#FDD835;
  display:flex;
  flex-direction: column;
@@ -65,7 +63,7 @@ aside p
 .loisir
 {
     display:flex;
-    align-self:flex-end;
+    justify-content:center;
     margin-top:10px;
     font-size:1.9em;
 }
@@ -83,35 +81,61 @@ main
     display:flex;
     flex-direction:column;
 }
-
-.element2
+.element2 header
+{
+    margin-bottom:10px;
+}
+.element2 article
 {
 display:flex;
-flex-direction:row;
-flex-wrap:wrap;
+flex-direction:column;
 
 }
-.element2 p
+.date
+{   display:flex;
+    flex-direction:column;
+    align-self:flex-start;
+}
+.para
 {
+    width:50%;
     display:flex;
     flex-direction:column;
+    align-self:flex-end;  
+}
+.element2 h5
+{
+    width:50%;
+    margin-left:10px;
+    display:flex;
+    flex-direction:column;
+    align-self:flex-end;
+}
+.element2 h4
+{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-self:flex-end;
 
 }
 .element2 h3
 {
 display:flex;
 align-content:flex-end;
+margin-right:10%;
+margin-bottom:0%;
 }
 
-.element2 article
+/*.element2 article
 {
     display:flex;
     flex-direction:column;
 
-}
+}*/
 .element2 h4,h5
 {
-    margin:20px 20px 0px 0px;
+    margin:10px 10px 0px 0px;
 
 }
 .element3
@@ -132,7 +156,7 @@ flex-direction:column;
 {
     display:flex;
     flex-direction:row;
-    flex:1 40% ;
+
 }
 .element3 h4,h5
 {
