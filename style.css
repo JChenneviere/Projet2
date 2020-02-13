@@ -15,9 +15,13 @@ header
     display:flex;
     flex-direction:column;
     margin-top:5%;
-    margin-bottom:5%;
+    margin-bottom:0%;
     margin-left:10%;
     justify-content:left;
+}
+header h2
+{
+    margin-top:5px
 }
 aside
 {
@@ -27,12 +31,12 @@ aside
  display:flex;
  flex-direction: column;
  text-align:left;
- 
 }
 aside img
 {
     display:flex;
     align-self:center;
+    box-shadow: 0px 0px 0px 3px rgba(172, 172, 172, 0.3);
     border-radius:500px;
     width:50%;
     margin-top:40px;
@@ -59,19 +63,28 @@ aside p
 }
 .myself
 {
-    margin-bottom:150px;
+    display:flex;
+    margin-bottom:200px;
+}
+address
+{
+   font-style:normal; 
+}
+aside article
+{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-around;
 }
 .loisir
 {
     display:flex;
     justify-content:space-around;
     margin-top:10px;
-    font-size:2.5em;
+    font-size:2em;  
 }
-
 main h3
 {
-
     text-align:left;
     border-bottom:solid #FFA726 2px;
 }
@@ -102,6 +115,7 @@ flex-direction:column;
 {
     width:50%;
     margin-top:0%;
+    margin-right:20px;
     display:flex;
     flex-direction:column;
     align-self:flex-end;
@@ -110,8 +124,9 @@ flex-direction:column;
 .element2 h4
 {
     width:50%;
-    margin-top:-10%;
+    margin-top:-11%;
     margin-bottom:10px;
+    margin-right:5%;
     display:flex;
     flex-direction:column;
     align-self:flex-end;
@@ -120,7 +135,7 @@ flex-direction:column;
 {
 display:flex;
 align-content:flex-end;
-margin-right:10%;
+margin-right:15%;
 margin-bottom:0%;
 }
 .element3 header
@@ -136,8 +151,9 @@ text-align:left;
 .element3 h4
 {
     width:50%;
-    margin-top:-10%;
+    margin-top:-11%;
     margin-bottom:10px;
+    margin-right:5%;
     display:flex;
     flex-direction:column;
     align-self:flex-end;
@@ -155,42 +171,56 @@ margin-bottom:0%;
 display:flex;
 flex-direction:column;
 }
-.element4
-{
-    display:flex;
-    flex-direction:column;
-
-}
 .element4 article
 {
     display: flex;
-    flex-flow: row nowrap;
-    align-items: baseline;
-    width: 100%;
+    flex-flow: column;
 }
-/*.tps
+.rec1
+{   
+    margin-left:30px;
+    display:flex;
+    flex-flow:row wrap;
+    align-items:flex-start;
+}
+.rec2
 {
-    width:30%;
-    margin-top:0%;
+    width:50%;
+    margin-top:-33%;
+    margin-left:50%;
     display:flex;
     flex-direction:column;
     align-self:flex-end;
-}*/
+}
 .element4 h3
 {
-display:flex;
-align-content:flex-end;
+    display:flex;
 margin-right:10%;
 margin-bottom:0%;
 }
 h1
 {
     font-family: test, "comic sans ms", serif ;
+    margin-bottom:0px;
 }
 strong
 {
     color:#FFA726;
     font-family: test, "comic sans ms", serif ;
+}
+.dev
+{
+    position:relative;
+}
+.line
+{
+    display:block;
+    background:#FFA726;
+    position:absolute;
+    width: 63px;
+    height:2px;
+    bottom:0;
+    left:0;
 }
 .fa-book
 {
@@ -205,21 +235,39 @@ strong
 .fa-user-graduate
 {
     color:#FFA726;
-    margin-right:10px;
+    margin-right:20px;
     margin-bottom:10px;
     font-size:1.5EM;
 }
 .fa-percentage
 {
     color:#FFA726;
-    margin-right:10px;
+    margin-right:20px;
     margin-bottom:10px;
     font-size:1.5EM;
 }
 .fa-scroll
 {
     color:#FFA726;
-    margin-right:10px;
+    margin-right:20px;
     margin-bottom:10px;
     font-size:1.5EM;
+}
+.fa-skating
+{  
+    padding:4px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+.fa-steam
+{  
+    padding:2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+.fa-tools
+{
+    padding:4px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
 }
