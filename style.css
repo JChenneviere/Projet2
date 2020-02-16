@@ -209,7 +209,7 @@ strong
         width:90%;
         margin:auto;
         font-size:0.8em;
-        background-color: yellow;
+        background-color: red;
     }
     address
     {
@@ -248,10 +248,12 @@ strong
     {
         width:100%;
         margin-left:10%;
+        font-size:0.7em;
     }
     .base h4, .base2 h4
     {
-        font-size:0.7em;
+        font-size:0.8em;
+     
     }
     .mep
     {
