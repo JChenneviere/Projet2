@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "test";
-    src: url("test.ttf") format("truetype");      
+    font-family: "Kiona-Regular";
+    src: url("Kiona-Regular.ttf") format("truetype");      
    }
 body
 {
-	width:700px;
+	width:30%;
 	margin:auto;
     display:flex;
     background-color:white;
@@ -30,6 +30,7 @@ aside
  background-color:#FDD835;
  display:flex;
  flex-direction: column;
+
  text-align:left;
 }
 aside img
@@ -41,13 +42,11 @@ aside img
     width:50%;
     margin-top:40px;
     margin-bottom:40px;
-
 }
 aside h3
 {
-    margin-top:0px;
-
-    margin-bottom:10px;
+    margin-top:5%;
+    margin-bottom:5%;
     font-size:1.5em;
 	background:#494749;
 	text-align:center;
@@ -61,14 +60,15 @@ aside p
     margin-left:30px;
     margin-top:5px;
 }
-.myself
+.myself2
 {
-    display:flex;
-    margin-bottom:200px;
+    flex:1;
+    justify-content:flex-start;
 }
 address
 {
    font-style:normal; 
+
 }
 aside article
 {
@@ -76,11 +76,12 @@ aside article
     flex-flow:column wrap;
     justify-content:space-around;
 }
+
 .loisir
 {
     display:flex;
     justify-content:space-around;
-    margin-top:10px;
+    margin-top:5%;
     font-size:2em;  
 }
 main h3
@@ -95,113 +96,57 @@ main
     display:flex;
     flex-direction:column;
 }
-.element2 header
+
+.base header
 {
     margin-bottom:10px;
 }
-.element2 article
+.base h3, .base2 h3
 {
-display:flex;
-flex-direction:column;
+    margin-right:10%;
+}
+.base h4, .base2 h4
+{
+    margin-bottom:0%;
+}
+.base
+{
+    display:flex;
+    flex-direction:column;
+}
+.base article
+{
+    display:flex;
+    justify-content:space-between;
 }
 .date
-{   
-    margin-left:30px;
-    display:flex;
-    flex-flow:row wrap;
-    align-items:flex-start;
-}
-.para
 {
-    width:50%;
-    margin-top:0%;
-    margin-right:20px;
+    width:40%;
+    margin-left:10%;
+}
+.mep
+{
+    width:40%;
+    margin-right:10%;
     display:flex;
     flex-direction:column;
-    align-self:flex-end;
 }
 
-.element2 h4
-{
-    width:50%;
-    margin-top:-11%;
-    margin-bottom:10px;
-    margin-right:5%;
-    display:flex;
-    flex-direction:column;
-    align-self:flex-end;
-}
-.element2 h3
-{
-display:flex;
-align-content:flex-end;
-margin-right:15%;
-margin-bottom:0%;
-}
-.element3 header
-{
-    margin-bottom:10px;
-}
-.element3 article
-{
-display:flex;
-flex-direction:column;
-text-align:left;
-}
-.element3 h4
-{
-    width:50%;
-    margin-top:-11%;
-    margin-bottom:10px;
-    margin-right:5%;
-    display:flex;
-    flex-direction:column;
-    align-self:flex-end;
-}
-.element3 h3
-{
-display:flex;
-align-content:flex-end;
-margin-right:10%;
-margin-bottom:0%;
-}
-
-.element3
-{
-display:flex;
-flex-direction:column;
-}
-.element4 article
+.base2 article
 {
     display: flex;
     flex-flow: column;
 }
-.rec1
-{   
-    margin-left:30px;
-    display:flex;
-    flex-flow:row wrap;
-    align-items:flex-start;
-}
-.rec2
-{
-    width:50%;
-    margin-top:-33%;
-    margin-left:50%;
-    display:flex;
-    flex-direction:column;
-    align-self:flex-end;
-}
-.element4 h3
+.rec
 {
     display:flex;
-margin-right:10%;
-margin-bottom:0%;
+    justify-content:space-around;
 }
 h1
 {
-    font-family: test, "comic sans ms", serif ;
-    margin-bottom:0px;
+    font-family: Kiona-Regular, "comic sans ms", serif ;
+    font-size:1.6em;
+    margin-bottom:0%;
 }
 strong
 {
@@ -222,52 +167,30 @@ strong
     bottom:0;
     left:0;
 }
-.fa-book
+.fa-book, .fa-book-open
 {
     color:#FFA726;
     margin-right:10px;
 }
-.fa-book-open
-{
-    color:#FFA726;
-    margin-right:10px;
-}
-.fa-user-graduate
+
+.fa-user-graduate, .fa-scroll, .fa-percentage
 {
     color:#FFA726;
     margin-right:20px;
     margin-bottom:10px;
     font-size:1.5EM;
 }
-.fa-percentage
-{
-    color:#FFA726;
-    margin-right:20px;
-    margin-bottom:10px;
-    font-size:1.5EM;
-}
-.fa-scroll
-{
-    color:#FFA726;
-    margin-right:20px;
-    margin-bottom:10px;
-    font-size:1.5EM;
-}
-.fa-skating
+
+.fa-skating, .fa-tools, .fa-steam
 {  
-    padding:4px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 50%;
 }
-.fa-steam
+.fa-padding-2
 {  
     padding:2px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 50%;
 }
-.fa-tools
-{
+.fa-padding-4
+{  
     padding:4px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 50%;
 }
