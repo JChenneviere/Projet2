@@ -201,6 +201,10 @@ strong
         width:100%;
         font-size:1em;
     }
+    aside
+    {
+        width:40%;
+    }
     main
     {
         width:60%;
@@ -209,5 +213,15 @@ strong
     {
         display:flex;
         flex-direction:column;
+    }
+    .date
+    {
+        width:100%;
+        margin-left:10%;
+    }
+    .mep
+    {
+        width:100%;
+        margin-left:10%;
     }
 }
