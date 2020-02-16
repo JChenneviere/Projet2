@@ -198,6 +198,16 @@ strong
 {
     body
     {
-        width:auto;
+        width:100%;
+        font-size:1em;
+    }
+    main
+    {
+        width:60%;
+    }
+    .base article
+    {
+        display:flex;
+        flex-direction:column;
     }
 }
