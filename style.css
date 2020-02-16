@@ -144,7 +144,7 @@ main
 }
 h1
 {
-    font-family: Kiona-Regular, "comic sans ms", serif ;
+    font-family: "Kiona-Regular.ttf", "comic sans ms", serif ;
     font-size:1.6em;
     margin-bottom:0%;
 }
@@ -194,17 +194,26 @@ strong
 {  
     padding:4px;
 }
-@media all and (max-device-width: 700px)
+@media all and (max-device-width: 900px)
 {
     body
     {
-        width:auto;
+        width:100%;
         font-size:1em;
-        background-color: yellow;
+        background-color: red;
+    }
+    address
+    {
+        font-size:0.8em;
     }
     aside
     {
         width:40%;
+        font-size:0.8em;
+    }
+    h3 
+    {
+        font-size:1.2em;
     }
     aside h3
 {
@@ -214,7 +223,7 @@ strong
 	background:#494749;
 	text-align:center;
 	color:#F5BE00;
-	font-family: Kiona-Regular.ttf, "comic sans ms", serif ;
+	font-family: "Kiona-Regular.ttf", "comic sans ms", serif ;
 }
     main
     {
