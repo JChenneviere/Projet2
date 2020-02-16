@@ -207,8 +207,9 @@ strong
     body
     {
         width:100%;
+        margin:auto;
         font-size:1em;
-        background-color: yellow;
+        background-color: red;
     }
     address
     {
@@ -221,12 +222,9 @@ strong
     }
     h3 
     {
-        font-size:0.8em;
+        font-size:1em;
     }
-    .base h3, .base2 h3
-{
-    margin-right:0%;
-}
+
     aside h3
 {
     margin-top:5%;
