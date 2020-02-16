@@ -194,3 +194,10 @@ strong
 {  
     padding:4px;
 }
+@media all and (max-device-width: 480px)
+{
+    body
+    {
+        width:auto;
+    }
+}
