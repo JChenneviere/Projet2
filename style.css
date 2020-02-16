@@ -56,8 +56,8 @@ aside h3
 aside p
 {
     font-size:0.9em;
-    margin-right:30px;
-    margin-left:30px;
+    margin-right:5%;
+    margin-left:5%;
     margin-top:5px;
 }
 .myself2
@@ -208,7 +208,7 @@ strong
     {
         width:100%;
         font-size:1em;
-        background-color: red;
+        background-color: yellow;
     }
     address
     {
@@ -223,6 +223,10 @@ strong
     {
         font-size:0.8em;
     }
+    .base h3, .base2 h3
+{
+    margin-right:0%;
+}
     aside h3
 {
     margin-top:5%;
@@ -251,7 +255,7 @@ strong
     {
         width:60%;
         margin-left:10%;
-        margin-right:10%;
+        margin-right:0%;
     }
     .rec
     {
