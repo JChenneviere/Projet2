@@ -176,7 +176,7 @@ strong
 .fa-user-graduate, .fa-scroll, .fa-percentage
 {
     color:#FFA726;
-    margin-right:20px;
+    margin-right:5%;
     margin-bottom:10px;
     font-size:1.5EM;
 }
@@ -209,7 +209,7 @@ strong
         width:90%;
         margin:auto;
         font-size:0.8em;
-        background-color: red;
+        background-color: yellow;
     }
     address
     {
@@ -249,9 +249,9 @@ strong
         width:100%;
         margin-left:10%;
     }
-    .base h3 .base2 h4
+    .base h4, .base2 h4
     {
-        font-size:0.8em;
+        font-size:0.7em;
     }
     .mep
     {
@@ -271,5 +271,12 @@ strong
     justify-content:space-around;
     margin-top:5%;
     font-size:1.5em;  
+}
+.fa-user-graduate, .fa-scroll, .fa-percentage
+{
+    color:#FFA726;
+    margin-right:2%;
+    margin-bottom:10px;
+    font-size:1.2EM;
 }
 }
