@@ -208,8 +208,8 @@ strong
     {
         width:100%;
         margin:auto;
-        font-size:1em;
-        background-color: red;
+        font-size:0.7em;
+        background-color: yellow;
     }
     address
     {
@@ -222,7 +222,7 @@ strong
     }
     h3 
     {
-        font-size:1em;
+        font-size:0.8em;
     }
 
     aside h3
