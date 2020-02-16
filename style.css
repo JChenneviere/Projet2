@@ -196,11 +196,19 @@ strong
 }
 @media all and (max-device-width: 900px)
 {
+    header
+{
+    display:flex;
+    flex-direction:column;
+    margin-top:5%;
+    margin-bottom:0%;
+    justify-content:left;
+}
     body
     {
         width:100%;
         font-size:1em;
-        background-color: red;
+        background-color: yellow;
     }
     address
     {
@@ -251,4 +259,11 @@ strong
         flex-direction:column;
         margin-left:10%;
     }
+    .loisir
+{
+    display:flex;
+    justify-content:space-around;
+    margin-top:5%;
+    font-size:1.5em;  
+}
 }
