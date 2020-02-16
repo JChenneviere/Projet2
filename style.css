@@ -208,7 +208,7 @@ strong
     {
         width:100%;
         font-size:1em;
-        background-color: yellow;
+        background-color: red;
     }
     address
     {
@@ -221,7 +221,7 @@ strong
     }
     h3 
     {
-        font-size:1.2em;
+        font-size:0.8em;
     }
     aside h3
 {
@@ -259,7 +259,7 @@ strong
         flex-direction:column;
         margin-left:10%;
     }
-    .loisir
+    .loisir2
 {
     display:flex;
     justify-content:space-around;
