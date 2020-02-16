@@ -51,7 +51,7 @@ aside h3
 	background:#494749;
 	text-align:center;
 	color:#F5BE00;
-	font-family: test, "comic sans ms", serif ;
+	font-family: Kiona-Regular.ttf, "comic sans ms", serif ;
 }
 aside p
 {
@@ -200,12 +200,22 @@ strong
     {
         width:auto;
         font-size:1em;
-        background-color: red;
+        background-color: yellow;
     }
     aside
     {
         width:40%;
     }
+    aside h3
+{
+    margin-top:5%;
+    margin-bottom:5%;
+    font-size:1.1em;
+	background:#494749;
+	text-align:center;
+	color:#F5BE00;
+	font-family: Kiona-Regular.ttf, "comic sans ms", serif ;
+}
     main
     {
         width:60%;
@@ -222,7 +232,7 @@ strong
     }
     .mep
     {
-        width:80%;
+        width:60%;
         margin-left:10%;
         margin-right:10%;
     }
@@ -230,5 +240,6 @@ strong
     {
         display:flex;
         flex-direction:column;
+        margin-left:10%;
     }
 }
