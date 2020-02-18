@@ -4,7 +4,6 @@
    }
 body
 {
-	width:40%;
 	margin:auto;
     display:flex;
     background-color:white;
@@ -12,25 +11,16 @@ body
 }
 header
 {
-    display:flex;
-    flex-direction:column;
-    margin-top:5%;
-    margin-bottom:0%;
-    margin-left:10%;
     justify-content:left;
 }
-header h2
+header h2, header, aside p, aside h3
 {
     margin-top:5%;
 }
 aside
 {
  font-size:0.9em;
- width:40%;
  background-color:#FDD835;
- display:flex;
- flex-direction: column;
-
  text-align:left;
 }
 aside img
@@ -40,25 +30,36 @@ aside img
     box-shadow: 0px 0px 0px 3px rgba(172, 172, 172, 0.3);
     border-radius:500px;
     width:50%;
-    margin-top:40px;
-    margin-bottom:40px;
+    margin-top:20%;
+    margin-bottom:15%;
 }
+
 aside h3
 {
-    margin-top:5%;
     margin-bottom:5%;
     font-size:1.5em;
 	background:#494749;
 	text-align:center;
 	color:#F5BE00;
-	font-family: "Kiona-Regular.ttf", "comic sans ms", serif ;
 }
 aside p
 {
     font-size:0.9em;
     margin-right:5%;
     margin-left:5%;
-    margin-top:5px;
+}
+.flexaround
+{
+    display:flex;
+    justify-content:space-around;
+}
+aside article
+{
+    flex-flow:column wrap;
+}
+.loisir
+{
+    font-size:2em;
 }
 .myself2
 {
@@ -70,20 +71,6 @@ address
    font-style:normal; 
 
 }
-aside article
-{
-    display:flex;
-    flex-flow:column wrap;
-    justify-content:space-around;
-}
-
-.loisir
-{
-    display:flex;
-    justify-content:space-around;
-    margin-top:5%;
-    font-size:2em;  
-}
 main h3
 {
     text-align:left;
@@ -93,23 +80,25 @@ main
 {
     background-color:white;
     width:70%;
-    display:flex;
-    flex-direction:column;
-}
 
+}
 .base header
 {
     margin-bottom:10px;
 }
-.base h3, .base2 h3
+.base h3, .base2 h3, .mep
 {
     margin-right:10%;
 }
-.base h4, .base2 h4
+.date, header
+{
+    margin-left:10%;
+}
+.base h4, .base2 h4, h1, header
 {
     margin-bottom:0%;
 }
-.base, .base2 article
+.base, .base2 article, header, aside, main
 {
     display:flex;
     flex-direction:column;
@@ -119,45 +108,21 @@ main
     display:flex;
     justify-content:space-between;
 }
-.date
+.width, aside, body
 {
     width:40%;
-    margin-left:10%;
-}
-.mep
-{
-    width:40%;
-    margin-right:10%;
-    display:flex;
-    flex-direction:column;
-}
-
-
-
-
-
-
-
-/*.base2 article
-{
-    display: flex;
-    flex-flow: column;
-}*/
-.rec
-{
-    display:flex;
-    justify-content:space-around;
 }
 h1
 {
-    font-family: "Kiona-Regular.ttf", "comic sans ms", serif ;
     font-size:1.6em;
-    margin-bottom:0%;
 }
-strong
+.fontfamily, h1, strong, aside h3
+{
+    font-family: "Kiona-Regular.ttf", "comic sans ms", serif ;
+}
+strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
 {
     color:#FFA726;
-    font-family: test, "comic sans ms", serif ;
 }
 .dev
 {
@@ -175,13 +140,11 @@ strong
 }
 .fa-book, .fa-book-open
 {
-    color:#FFA726;
     margin-right:10px;
 }
 
 .fa-user-graduate, .fa-scroll, .fa-percentage
 {
-    color:#FFA726;
     margin-right:5%;
     margin-bottom:10px;
     font-size:1.5EM;
@@ -204,8 +167,6 @@ strong
 {
     header
 {
-    display:flex;
-    flex-direction:column;
     margin-top:5%;
     margin-bottom:0%;
     justify-content:left;
@@ -214,17 +175,15 @@ strong
     {
         width:90%;
         margin:auto;
-        font-size:0.8em;
         background-color: yellow;
     }
-    address
+    address, aside, body, .base h4, .base2 h4
     {
         font-size:0.8em;
     }
     aside
     {
         width:40%;
-        font-size:0.8em;
     }
     h3 
     {
@@ -241,11 +200,11 @@ strong
 	color:#F5BE00;
 	font-family: "Kiona-Regular.ttf", "comic sans ms", serif ;
 }
-    main
+    main, .mep
     {
         width:60%;
     }
-    .base article
+    .base article, header, .rec
     {
         display:flex;
         flex-direction:column;
@@ -263,14 +222,10 @@ strong
     }
     .mep
     {
-        width:60%;
-        margin-left:10%;
         margin-right:0%;
     }
-    .rec
+    .rec, .mep
     {
-        display:flex;
-        flex-direction:column;
         margin-left:10%;
     }
     .loisir2
