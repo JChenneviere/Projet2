@@ -21,7 +21,7 @@ header
 }
 header h2
 {
-    margin-top:5px
+    margin-top:5%;
 }
 aside
 {
@@ -51,7 +51,7 @@ aside h3
 	background:#494749;
 	text-align:center;
 	color:#F5BE00;
-	font-family: Kiona-Regular.ttf, "comic sans ms", serif ;
+	font-family: "Kiona-Regular.ttf", "comic sans ms", serif ;
 }
 aside p
 {
@@ -109,7 +109,7 @@ main
 {
     margin-bottom:0%;
 }
-.base
+.base, .base2 article
 {
     display:flex;
     flex-direction:column;
@@ -132,11 +132,17 @@ main
     flex-direction:column;
 }
 
-.base2 article
+
+
+
+
+
+
+/*.base2 article
 {
     display: flex;
     flex-flow: column;
-}
+}*/
 .rec
 {
     display:flex;
