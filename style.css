@@ -194,7 +194,7 @@ strong
 {  
     padding:4px;
 }
-@media all and (max-width: 1100px)
+@media all and (max-width: 1200px)
 {
     header
 {
@@ -209,7 +209,7 @@ strong
         width:90%;
         margin:auto;
         font-size:0.8em;
-        background-color: red;
+        background-color: yellow;
     }
     address
     {
