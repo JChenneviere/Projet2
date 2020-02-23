@@ -13,17 +13,17 @@ header
 {
     justify-content:left;
 }
-header h2, header, aside p, aside h3
+header h2, header, footer p, footer h3
 {
     margin-top:5%;
 }
-aside
+footer
 {
  font-size:0.9em;
  background-color:#FDD835;
  text-align:left;
 }
-aside img
+footer img
 {
     display:flex;
     align-self:center;
@@ -34,7 +34,7 @@ aside img
     margin-bottom:15%;
 }
 
-aside h3
+footer h3
 {
     margin-bottom:5%;
     font-size:1.5em;
@@ -42,7 +42,7 @@ aside h3
 	text-align:center;
 	color:#F5BE00;
 }
-aside p
+footer p
 {
     font-size:0.9em;
     margin-right:5%;
@@ -53,7 +53,7 @@ aside p
     display:flex;
     justify-content:space-around;
 }
-aside article
+footer article
 {
     flex-flow:column wrap;
 }
@@ -80,13 +80,18 @@ main
 {
     background-color:white;
     width:70%;
-
 }
-.base header
+.chapitre header
 {
     margin-bottom:10px;
 }
-.base h3, .base2 h3, .mep
+.rec-perso
+{
+    display:flex;
+    justify-content:space-around;
+}
+
+.chapitre h3, .chapitre2 h3, .marge, .para
 {
     margin-right:10%;
 }
@@ -94,21 +99,21 @@ main
 {
     margin-left:10%;
 }
-.base h4, .base2 h4, h1, header
+.chapitre h4, .chapitre2 h4, h1, header
 {
     margin-bottom:0%;
 }
-.base, .base2 article, header, aside, main
+.chapitre, .chapitre2 article, header, footer, main
 {
     display:flex;
     flex-direction:column;
 }
-.base article
+.chapitre article
 {
     display:flex;
     justify-content:space-between;
 }
-.width, aside, body
+.width, footer, body
 {
     width:40%;
 }
@@ -116,7 +121,7 @@ h1
 {
     font-size:1.6em;
 }
-.fontfamily, h1, strong, aside h3
+.fontfamily, h1, strong, footer h3
 {
     font-family: "Kiona-Regular.ttf", "comic sans ms", serif ;
 }
@@ -165,81 +170,156 @@ strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
 }
 @media all and (max-width: 1200px)
 {
-    header
-{
-    margin-top:5%;
-    margin-bottom:0%;
-    justify-content:left;
-}
     body
     {
-        width:90%;
         margin:auto;
-        background-color: yellow;
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        background-color:white;
+        border:1px solid black;
     }
-    address, aside, body, .base h4, .base2 h4
+    footer
     {
-        font-size:0.8em;
+        width:100%;
+        font-size:0.9em;
+        background-color:#FDD835;
+        text-align:center;
+        order:3;
     }
-    aside
+    footer h3
     {
-        width:40%;
+        margin-bottom:5%;
+        font-size:1.5em;
+        background:#494749;
+        text-align:center;
+        color:#F5BE00;
     }
-    h3 
+    footer p
     {
         font-size:0.9em;
+        margin-right:5%;
+        margin-left:5%;
     }
-
-    aside h3
-{
-    margin-top:5%;
-    margin-bottom:5%;
-    font-size:1.1em;
-	background:#494749;
-	text-align:center;
-	color:#F5BE00;
-	font-family: "Kiona-Regular.ttf", "comic sans ms", serif ;
-}
-    main, .mep
+    .flexaround
     {
-        width:60%;
+        display:flex;
+        justify-content:space-around;
     }
-    .base article, header, .rec
+    footer article
+    {
+        flex-flow:column wrap;
+    }
+    .loisir
+    {
+        font-size:2em;
+    }
+    .myself2
+    {
+        flex:1;
+        justify-content:flex-start;
+    }
+    address
+    {
+       font-style:normal; 
+    
+    }
+    main h3
+    {
+        font-size:1.0em;
+        text-align:center;
+        border-bottom:solid #FFA726 2px;
+    }
+    main 
+    {
+        background-color:white;
+        width:100%;
+    }
+    .chapitre header
+    {
+        margin-bottom:10px;
+    }
+    .chapitre h3, .chapitre2 h3, .marge
+    {
+        margin-right:10%;
+    }
+    .date, header
+    {
+        margin-left:10%;
+    }
+    .chapitre h4, .chapitre2 h4, h1, header
+    {
+        margin-bottom:0%;
+    }
+    .chapitre, .chapitre2 article, header, footer, main, .rec-perso
     {
         display:flex;
         flex-direction:column;
     }
-    .date
+
+    .rec-perso
     {
-        width:100%;
-        margin-left:10%;
-        font-size:0.7em;
+        align-items:center;
     }
-    .base h4, .base2 h4
+    .chapitre article
     {
-        font-size:0.8em;
-     
+        display:flex;
+        justify-content:space-between;
     }
-    .mep
+    .width
     {
-        margin-right:0%;
+        width:50%;
     }
-    .rec, .mep
+    h1
     {
-        margin-left:10%;
+        font-size:1.2em;
     }
-    .loisir2
-{
-    display:flex;
-    justify-content:space-around;
-    margin-top:5%;
-    font-size:1.5em;  
-}
-.fa-user-graduate, .fa-scroll, .fa-percentage
-{
-    color:#FFA726;
-    margin-right:2%;
-    margin-bottom:10px;
-    font-size:1.2EM;
-}
+    .fontfamily, h1, strong, footer h3
+    {
+        font-family: "Kiona-Regular.ttf", "comic sans ms", serif ;
+    }
+    strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
+    {
+        color:#FFA726;
+    }
+    .dev
+    {
+        position:relative;
+    }
+    .line
+    {
+        display:block;
+        background:#FFA726;
+        position:absolute;
+        width: 63px;
+        height:2px;
+        bottom:0;
+        left:0;
+    }
+    .fa-book, .fa-book-open
+    {
+        margin-right:10px;
+    }
+    
+    .fa-user-graduate, .fa-scroll, .fa-percentage
+    {
+        margin-right:5%;
+        margin-bottom:10px;
+        font-size:1.5EM;
+    }
+    
+    .fa-skating, .fa-tools, .fa-steam
+    {  
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+    }
+    .fa-padding-2
+    {  
+        padding:2px;
+    }
+    .fa-padding-4
+    {  
+        padding:4px;
+    }
+
 }
