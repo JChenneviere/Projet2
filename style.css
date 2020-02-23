@@ -39,7 +39,7 @@ footer h3
     margin-bottom:5%;
     font-size:1.5em;
 	background:#494749;
-	text-align:center;
+	text-align:red;
 	color:#F5BE00;
 }
 footer p
@@ -74,6 +74,7 @@ a
 address, a
 {
    font-style:normal; 
+   color:black;
 
 }
 main h3
@@ -288,7 +289,7 @@ strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
     }
     h2 
     {
-        font-size:1.1em;
+        font-size:1.2em;
         text-align:center;
     }
     .date, .para
