@@ -288,7 +288,7 @@ strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
     h1
     {
         font-size:1.3em;
-        /*text-align:center;*/
+        text-align:center;
     }
     h2 
     {
