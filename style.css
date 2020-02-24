@@ -182,7 +182,7 @@ strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
         width:90%;
         display:flex;
         flex-direction:column;
-        background-color:yellow;
+        background-color:red;
         border:1px solid black;
     }
     footer
@@ -281,10 +281,10 @@ strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
     {
         width:50%;
     }
-    header
+    /*header
     {
         justify-content:center;
-    }
+    }*/
     h1
     {
         font-size:1.3em;
@@ -293,7 +293,7 @@ strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
     h2 
     {
         font-size:1.2em;
-        /*text-align:center;*/
+        text-align:center;
     }
     .date, .para
     {
