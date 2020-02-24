@@ -267,7 +267,6 @@ strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
         display:flex;
         flex-direction:column;
     }
-
     .rec-perso
     {
         align-items:center;
@@ -283,7 +282,7 @@ strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
     }
     /*header
     {
-        justify-content:center;
+        justify-content:center;tralala
     }*/
     h1
     {
