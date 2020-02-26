@@ -40,7 +40,8 @@ footer h3
     font-size:1.5em;
 	background:#494749;
 	text-align:red;
-	color:#F5BE00;
+    color:#F5BE00;
+    text-align:center;
 }
 footer p
 {
