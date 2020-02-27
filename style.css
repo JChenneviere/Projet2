@@ -175,7 +175,32 @@ strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
 {  
     padding:4px;
 }
-@media all and (max-width: 1000px)
+
+@media all and (min-width: 601px) and (max-width: 1000px)
+{
+    body
+    {
+        margin:auto;
+        width:80%;
+        display:flex;
+        /*background-color:red;*/
+        border:1px solid black;
+    }
+
+}
+@media all and (min-width: 1001px) and (max-width: 1200px)
+{
+    body
+    {
+        margin:auto;
+        width:60%;
+        display:flex;
+        /*background-color:red;*/
+        border:1px solid black;
+    }
+
+}
+@media all and (max-width: 600px)
 {
     body
     {
@@ -183,7 +208,7 @@ strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
         width:90%;
         display:flex;
         flex-direction:column;
-        background-color:red;
+        /*background-color:red;*/
         border:1px solid black;
     }
     footer
@@ -317,7 +342,7 @@ strong, .fa-book, .fa-book-open, .fa-user-graduate, .fa-scroll, .fa-percentage
         display:block;
         background:#FFA726;
         position:absolute;
-        width: 63px;
+        width: 50px;
         height:2px;
         bottom:0;
         left:0;
